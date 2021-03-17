@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/listButton"
+        android:onClick="list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_grid"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gridButton"
+        android:onClick="grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_list" />
+
+    <Button
+        android:id="@+id/btn_tab"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabButton"
+        android:onClick="tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_grid" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tableButton"
+        android:onClick="table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tab" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

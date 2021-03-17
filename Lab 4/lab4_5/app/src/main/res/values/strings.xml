@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab4_5</string>
+    <string name="pasta_sauce">pasta sauce</string>
+    <string name="bread">Bread</string>
+    <string name="tomatoes">tomatoes</string>
+    <string name="lamb">Lamb</string>
+    <string name="chicken">Chicken</string>
+    <string name="order_summary">Order Summary</string>
+</resources>

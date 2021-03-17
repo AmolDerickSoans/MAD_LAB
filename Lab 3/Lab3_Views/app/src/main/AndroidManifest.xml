@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amol.lab3_views">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab3_Views">
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Lab3_Views.NoActionBar"></activity>
+        <activity android:name=".TableActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ListActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".GridActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

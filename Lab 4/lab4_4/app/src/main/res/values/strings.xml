@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab4_4</string>
+    <string name="tag_current_profile">Current Profile</string>
+    <string name="toggle_off_text_ringing">Ringing</string>
+    <string name="toggle_on_text_silent">Silent</string>
+    <string name="bttn_text">Action</string>
+</resources>

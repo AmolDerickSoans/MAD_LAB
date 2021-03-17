@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab3_Views</string>
+    <string name="listButton">LIST</string>
+    <string name="gridButton">GRID</string>
+    <string name="tabButton">TAB</string>
+    <string name="tableButton">TABLE</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Songs</string>
+    <string name="tab_text_2">Favourites</string>
+    <string name="tab_text_3">Podcasts</string>
+</resources>
